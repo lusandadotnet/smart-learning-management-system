@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
+    <PackageReference Include="Dapper" Version="2.1.72" />
+<<<<<<< HEAD
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+=======
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+>>>>>>> origin/main
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Identity.Web" Version="4.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application/Interfaces/" />
+    <Folder Include="Application/Services/" />
+    <Folder Include="Application\" />
+    <Folder Include="Deployment/" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Infrastructure/Controllers/" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Persistance\" />
+    <Folder Include="Tests/" />
+  </ItemGroup>
+
+</Project>

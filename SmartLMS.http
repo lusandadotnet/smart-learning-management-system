@@ -1,0 +1,6 @@
+@SmartLMS_HostAddress = http://localhost:5228
+
+GET {{SmartLMS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
